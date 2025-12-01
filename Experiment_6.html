@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce Product Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body{
+            background-color: aliceblue;
+            color: #111;
+            padding: 20px;
+        }
+
+        .site{
+            display: block;
+            background: #222;
+            color: #fff;
+            padding: 13px;
+            text-align: center;
+            margin-bottom: 19px;
+        }
+
+        .container{
+            max-width: 420px;
+            margin: 0 auto;
+        }
+
+        .product{
+            background: white;
+            border: 1px solid black;
+            padding: 12px;
+            width: 100%;
+            height: auto;
+            border-radius: 6px;
+        }
+
+        .image{
+            width: 220px;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            margin: 0 auto;
+
+
+        }
+
+        .product title{
+            font-size: 18px;
+            margin-bottom: 6px;
+
+        }
+        .price-row{
+            margin-bottom: 12px;
+        }
+        .price{
+            font-weight: 700;
+            color: #0b6b3a;
+            margin-right: 8px;
+            display: inline;
+
+        }
+        .old-price{
+            color: #888;
+            text-decoration: line-through;
+            display: inline;
+
+        }
+        button{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header class="site">
+        <h1>Shop Now</h1>
+    </header>
+
+    <main class="container">
+        <section class="product">
+                <img class="image" src="shopping.webp" alt="">
+                <h2 class="product title">Smart Watch</h2>
+                
+                <div class="price-row">
+                    <span class="price">$1200</span>
+                    <span class="old-price">$1500</span>
+                </div>
+
+                <button>Add to Cart</button>
+        </section>
+
+    </main>
+</body>
+</html>
