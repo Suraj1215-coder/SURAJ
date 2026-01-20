@@ -3,14 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>suraj prajapati</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Layout Design</title>
+    
+<style>
+
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgb(192, 195, 21);
+    border: 3px solid rgb(0, 0, 0);
+    margin: 5px;
+    height: 30px;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main{
+    display: flex;
+    border: 2px;
+    background-color: darkgray;
+    margin: 5px;
+}
+
+.menu{
+    background: yellow;
+    height:300px;
+    margin:5px ;
+    border: 2px solid black;
+    width: 12%;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bigBox{
+    background: rgba(181, 60, 154, 0.453);
+    width: 90%;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.contant{
+    display: flex;
+    background: yellow;
+    height: 15%;
+    margin: 15px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.tool{
+    background: rgba(19, 232, 26, 0.896);
+    border-radius:20px;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+}
+
+.box{
+    background: rgba(18, 223, 223, 0.993);
+    height: 71%;
+    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.footer{
+    background: yellow;
+    border: 2px solid black;
+    margin: 5px;
+    height: 30px;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+</style>
+
 </head>
 <body>
-    <h1>PRINCE BHARGAV</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur. <br> Necessitatibus ut similique excepturi velit corrupti fugiat vitae, consectetur,<br> recusandae facilis mollitia fugit quia quas possimus maxime culpa, pariatur natus minima explicabo tempore! Eos aliquam facere,<br> tempore voluptate autem ipsum dolores dolore sed, vero enim sit quo,<br> maxime voluptates error officiis! Libero quas dolore magni aliquam dicta est sed dolores, <br>quod distinctio itaque qui non voluptas neque <br> Fugiat placeat vel itaque harum velit numquam magnam aperiam necessitatibus voluptate omnis commodi,<br> accusantium consequatur laborum corrupti ab est sed perspiciatis porro exercitationem earum? Consequatur <br> alias magni recusandae, unde consectetur veritatis. Voluptate, maiores fugiat.</p>
-    <img src="wallpaper - Shortcut.lnk" alt="">
-    <img width="300px" height="300px" src="https://images.unsplash.com/photo-1760532812860-649039fc2665?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=60&w=500" alt="">
-    <video  controls width="300px" height="300px" src="14519720_3840_2160_25fps.mp4"></video>
+    <div class="header">HEADER</div>
+
+    <div class="main">
+        <div class="menu">MENU</div>
+       <div class="bigBox">
+         <div class="contant">
+            <div class="tool">TOOL1</div>
+            <div class="tool">TOOL2</div>
+            <div class="tool">TOOL3</div>
+            <div class="nav">Nav bar with button</div>
+        </div>
+        <div class="box">MAP</div>
+       </div>
+    </div>
+     <div class="footer">FOOTER</div>
 </body>
 </html>
