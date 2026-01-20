@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+    
+<style>
+
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background: rgb(192, 195, 21);
+    border: 3px solid rgb(0, 0, 0);
+    margin: 5px;
+    height: 30px;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.main{
+    display: flex;
+    border: 2px;
+    background-color: darkgray;
+    margin: 5px;
+}
+
+.menu{
+    background: yellow;
+    height:300px;
+    margin:5px ;
+    border: 2px solid black;
+    width: 12%;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bigBox{
+    background: rgba(181, 60, 154, 0.453);
+    width: 90%;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.contant{
+    display: flex;
+    background: yellow;
+    height: 15%;
+    margin: 15px;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.tool{
+    background: rgba(19, 232, 26, 0.896);
+    border-radius:20px;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+}
+
+.box{
+    background: rgba(18, 223, 223, 0.993);
+    height: 71%;
+    margin: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.footer{
+    background: yellow;
+    border: 2px solid black;
+    margin: 5px;
+    height: 30px;
+     align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+</style>
+
+</head>
+<body>
+    <div class="header">HEADER</div>
+
+    <div class="main">
+        <div class="menu">MENU</div>
+       <div class="bigBox">
+         <div class="contant">
+            <div class="tool">TOOL1</div>
+            <div class="tool">TOOL2</div>
+            <div class="tool">TOOL3</div>
+            <div class="nav">Nav bar with button</div>
+        </div>
+        <div class="box">MAP</div>
+       </div>
+    </div>
+     <div class="footer">FOOTER</div>
+</body>
+</html>
